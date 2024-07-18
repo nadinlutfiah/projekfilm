@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-poster {
+    text-align: center;
+}
+
+.movie-poster img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.movie-info {
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.movie-info h2, .movie-info p {
+    margin: 5px 0;
+}
